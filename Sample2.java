@@ -1,0 +1,33 @@
+class Sample2
+{
+	public static void main(String[] args)
+	{
+		int arr[]={1,2,3,4,5};
+		Sample2 s=new Sample2();
+		System.out.println("before changing :"+arr[0]);
+		System.out.println("before changing :"+arr[1]);
+		System.out.println("before changing :"+arr[2]);
+		System.out.println("before changing :"+arr[3]);
+		System.out.println("before changing :"+arr[4]);
+		s.Method(arr);
+		System.out.println("after changing :"+arr[0]);
+		System.out.println("after changing :"+arr[1]);
+		System.out.println("after changing :"+arr[2]);
+		System.out.println("after changing :"+arr[3]);
+		System.out.println("after changing :"+arr[4]);
+		
+		
+		
+		
+	}
+	void Method(int arr[])
+	{
+		arr[0]=6;
+		arr[1]=7;
+		arr[2]=8;
+		arr[3]=9;
+		arr[4]=10;
+		
+		
+	}
+}
